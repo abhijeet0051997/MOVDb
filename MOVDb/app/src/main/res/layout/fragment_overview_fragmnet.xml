@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Framnets.OverviewFragmnet"
+    android:background="@color/colorPrimaryLight">
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/movie_title"
+            android:textSize="18dp"
+            android:ems="16"
+            android:fontFamily="@font/fira_sans_condensed"
+            android:textColor="#fff"
+            android:text="Spider-man :Far from Home"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/movie_year"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/fira_sans_condensed_light"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:text="2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:elevation="8dp"
+                android:src="@drawable/ic_star"
+                android:layout_width="18dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/movie_rating"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/fira_sans_condensed_light"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:text="3.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/movie_overview"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/fira_sans_condensed_light"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:text="The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

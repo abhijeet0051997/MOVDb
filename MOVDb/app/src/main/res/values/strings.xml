@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MOVDb</string>
+    <string name="app_label">MOVDb</string>
+    <string name="search_hint">Search Movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
